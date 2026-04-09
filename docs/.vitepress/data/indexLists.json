@@ -1,0 +1,72 @@
+[
+    {
+        "title": "HTML",
+        "link": "/html",
+        "icon": "🌐"
+    },
+    {
+        "title": "CSS",
+        "link": "/css",
+        "icon": "🎨"
+    },
+    {
+        "title": "JavaScript",
+        "link": "/javascript",
+        "icon": "⚡"
+    },
+    {
+        "title": "TypeScript",
+        "link": "/typescript",
+        "icon": "🔷"
+    },
+    {
+        "title": "Vue",
+        "link": "/vue",
+        "icon": "🟢"
+    },
+    {
+        "title": "React",
+        "link": "/react",
+        "icon": "⚛️"
+    },
+    {
+        "title": "Algorithm",
+        "link": "/algorithm",
+        "icon": "🧩"
+    },
+    {
+        "title": "Node",
+        "link": "/node",
+        "icon": "🟢"
+    },
+    {
+        "title": "Python",
+        "link": "/python",
+        "icon": "🐍"
+    },
+    {
+        "title": "SQL",
+        "link": "/sql",
+        "icon": "🗃️"
+    },
+    {
+        "title": "Docker",
+        "link": "/docker",
+        "icon": "🐳"
+    },
+    {
+        "title": "NextJs",
+        "link": "/nextjs",
+        "icon": "🚀"
+    },
+    {
+        "title": "Serverless",
+        "link": "/serverless",
+        "icon": "🚀"
+    },
+    {
+        "title": "Other",
+        "link": "/other",
+        "icon": "📚"
+    }
+]
