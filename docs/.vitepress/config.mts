@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-import { nav, sidebar } from './data/list'
+import { nav, sidebar } from  './data/list'
 
 
 

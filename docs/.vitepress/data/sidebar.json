@@ -1,15 +1,134 @@
-[
-    {
-        "text": "Examples",
-        "items": [
-            {
-                "text": "Markdown Examples",
-                "link": "/markdown-examples"
-            },
-            {
-                "text": "Runtime API Examples",
-                "link": "/api-examples"
-            }
-        ]
-    }
-]
+{
+  "/html/": {
+    "base": "/html/",
+    "items": [
+      {
+        "text": "HTML基础",
+        "link": "html-basic"
+      },
+      {
+        "text": "表单",
+        "link": "form"
+      }
+    ]
+  },
+  "/css/": {
+    "base": "/css/",
+    "items": [
+      {
+        "text": "CSS基础",
+        "link": "css-basic"
+      }
+    ]
+  },
+  "/javascript/": {
+    "base": "/javascript/",
+    "items": [
+      {
+        "text": "JavaScript基础",
+        "link": "javascript-basic"
+      }
+    ]
+  },
+  "/typescript/": {
+    "base": "/typescript/",
+    "items": [
+      {
+        "text": "TypeScript基础",
+        "link": "typescript-basic"
+      }
+    ]
+  },
+  "/vue/": {
+    "base": "/vue/",
+    "items": [
+      {
+        "text": "Vue基础",
+        "link": "vue-basic"
+      }
+    ]
+  },
+  "/react/": {
+    "base": "/react/",
+    "items": [
+      {
+        "text": "React基础",
+        "link": "react-basic"
+      }
+    ]
+  },
+  "/algorithm/": {
+    "base": "/algorithm/",
+    "items": [
+      {
+        "text": "算法基础",
+        "link": "algorithm-basic"
+      }
+    ]
+  },
+  "/node/": {
+    "base": "/node/",
+    "items": [
+      {
+        "text": "Node基础",
+        "link": "node-basic"
+      }
+    ]
+  },
+  "/python/": {
+    "base": "/python/",
+    "items": [
+      {
+        "text": "Python基础",
+        "link": "python-basic"
+      }
+    ]
+  },
+  "/sql/": {
+    "base": "/sql/",
+    "items": [
+      {
+        "text": "SQL基础",
+        "link": "sql-basic"
+      }
+    ]
+  },
+  "/docker/": {
+    "base": "/docker/",
+    "items": [
+      {
+        "text": "Docker基础",
+        "link": "docker-basic"
+      }
+    ]
+  },
+  "/nextjs/": {
+    "base": "/nextjs/",
+    "items": [
+      {
+        "text": "NextJs基础",
+        "link": "nextjs-basic"
+      }
+    ]
+  },
+  "/serverless/": {
+    "base": "/serverless/",
+    "items": [
+      {
+        "text": "Serverless基础",
+        "link": "serverless-basic"
+      }
+    ]
+  },
+  "/other/": {
+    "base": "/other/",
+    "items": [
+      {
+        "text": "其他基础",
+        "link": "other-basic"
+      }
+    ]
+  }
+}
+ 
+

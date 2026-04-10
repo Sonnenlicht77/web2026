@@ -1,7 +1,10 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from "vue";
+import { useRouter } from 'vitepress';
 
 import { techList } from "../../data/list";
+
+const router = useRouter();
 
 const getTechIcon = (tech: { title: string; icon: string }): string => {
   return tech.icon || "📚";
@@ -9,9 +12,8 @@ const getTechIcon = (tech: { title: string; icon: string }): string => {
 
 const handleClick = (tech:any, event: MouseEvent) => {
   createRipple(event);
-  console.log(tech);
   if (tech.link) {
-    window.open(tech.link, '_blank');
+    router.go(tech.link);
   }
 };
 
@@ -79,6 +81,7 @@ onUnmounted(() => {
     </div>
 </template>
 <style scoped lang="scss">
+
 .LayoutHome {
   display: flex;
   min-height: 100vh;
@@ -94,7 +97,6 @@ onUnmounted(() => {
     position: fixed;
     width: 15px;
     height: 15px;
-    background-image: spa;
     background: rgba(238, 156, 167, 0.6);
     border-radius: 50%;
     pointer-events: none;
@@ -174,7 +176,7 @@ onUnmounted(() => {
         margin-bottom: 1rem;
         transition: transform 0.3s ease;
 
-        .tech-card:hover & {
+        .tech-card:hover .tech-icon {
           transform: scale(1.1);
         }
       }
@@ -185,7 +187,7 @@ onUnmounted(() => {
         color: #333;
         transition: color 0.3s ease;
 
-        .tech-card:hover & {
+        .tech-card:hover .tech-name {
           color: #ee9ca7;
         }
       }

@@ -2,6 +2,9 @@
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import LayoutHome from './cpn/LayoutHome.vue'
+import './style.css'
+
+
 
 export default {
   extends: DefaultTheme,
