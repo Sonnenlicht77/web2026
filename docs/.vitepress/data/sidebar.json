@@ -7,8 +7,20 @@
         "link": "html-basic"
       },
       {
+        "text": "表格",
+        "link": "table"
+      },
+      {
         "text": "表单",
         "link": "form"
+      },
+      {
+        "text": "语义化 HTML",
+        "link": "semantics"
+      },
+      {
+        "text": "高级表单",
+        "link": "form2"
       }
     ]
   },
